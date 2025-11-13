@@ -46,15 +46,11 @@
     }
 
     h2 {
-      font-size: 1.25rem;
+      font-size: 1.3rem;
       color: #295729;
       margin-top: 1.6rem;
       margin-bottom: 0.5rem;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-      margin-top: 0.2rem;
+      text-align: center;
     }
 
     .how-to {
@@ -62,43 +58,17 @@
       border-left: 5px solid #7bb87f;
       padding: 1rem;
       border-radius: 14px;
+      max-width: 600px;
+      margin: 0.5rem auto 0 auto;
     }
 
-    .crop-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 0.75rem;
-      margin-top: 0.75rem;
-    }
-
-    .crop-card {
-      background: #f6faf3;
-      border-radius: 14px;
-      padding: 0.75rem 0.9rem;
-      border: 1px solid #dbe9d5;
-      text-align: left;
-      font-size: 0.98rem;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .crop-card span {
-      font-size: 1.2rem;
-    }
-
-    .crop-card a {
-      text-decoration: none;
-      color: #285f2b;
-      font-weight: 600;
-    }
-
-    .crop-card a:hover {
-      text-decoration: underline;
+    ul {
+      padding-left: 1.2rem;
+      margin-top: 0.3rem;
     }
 
     .footer {
-      margin-top: 1.8rem;
+      margin-top: 2rem;
       font-size: 0.9rem;
       color: #6c7e6a;
       text-align: center;
@@ -109,51 +79,28 @@
 </head>
 <body>
   <div class="card">
+
     <span class="cute-icon">🫐🌿</span>
     <h1>Green Acres Blueberry Farm</h1>
+
     <p class="tagline">
-      Crop information hub for <strong>You Pick Blueberries at Green Acres Blueberry Farm</strong>.
-      Scan the QR signs in the field to learn how to store, cook, and enjoy what you pick.
+      Welcome to the crop information hub for <strong>You Pick Blueberries at Green Acres Blueberry Farm</strong>.
+      Scan the QR signs posted at each crop to learn how to pick, store, freeze, and enjoy your harvest.
     </p>
 
     <h2>How to use these pages</h2>
     <div class="how-to">
       <ul>
         <li>Scan the QR sign at each crop with your phone camera.</li>
-        <li>Read tips on how to pick, store, freeze, and cook that item.</li>
+        <li>Follow the page to learn tips for storing, freezing, and cooking that item.</li>
         <li>Try one of the simple recipe ideas at home.</li>
       </ul>
     </div>
 
-    <h2>Browse crop info</h2>
-    <p style="margin-top: 0.25rem;">
-      Tap a crop below to view its info page. These are the same pages visitors see when they scan QR signs out in the field.
-    </p>
-
-    <div class="crop-list">
-      <!-- Example crop entry. Add more as you create pages. -->
-      <div class="crop-card">
-        <span>🫐</span>
-        <a href="crops/blueberries.html">Blueberries</a>
-      </div>
-
-      <!-- When you create more pages, add cards like these: -->
-      <!--
-      <div class="crop-card">
-        <span>🥬</span>
-        <a href="crops/collard-greens.html">Collard Greens</a>
-      </div>
-
-      <div class="crop-card">
-        <span>🥦</span>
-        <a href="crops/broccoli.html">Broccoli</a>
-      </div>
-      -->
-    </div>
-
     <div class="footer">
-      Thank you for supporting your local farm. See you out in the field. 🌱
+      Thank you for supporting your local farm. Enjoy your time out in the field! 🌱
     </div>
+
   </div>
 </body>
 </html>
